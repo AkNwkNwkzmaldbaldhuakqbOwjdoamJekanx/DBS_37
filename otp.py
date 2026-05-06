@@ -605,7 +605,8 @@ def up_to_prem():
     input_up_to_prem = input(f"{a}    ╰──{h}➤{p} ")
 
     if input_up_to_prem == "ok" or input_up_to_prem == "OK":
-        os.system("xdg-open 'https://wa.me/6285691909415?text=Permisi+Mau+Upgrade+Ke+Premium+Bang'")
+        print(f"\n{h} ⌗ {p}Chat Admin{m}: {h}https://wa.me/6285691909415")
+        input(f"  {h}[{m} ENTER {h}]")
     else:
         return
 
@@ -660,6 +661,7 @@ def tampilkan_menu():
 │ {p}[{h}01{p}] Spam OTP WhatsApp                                      {a}│
 │ {p}[{h}02{p}] Upgrade Ke Premium                                     {a}│
 │ {p}[{h}03{p}] Support Admin (Saweria)                                {a}│
+│ {p}[{h}04{p}] Info Update Terbaru                                    {a}│
 │ {p}[{h}00{p}] Keluar                                                 {a}│
 │                                                             {a}│
 ╰── ╭─ {m}[{p} P I L I H {m}]{a} ─────────────────────────────────────────╯""")
@@ -717,7 +719,11 @@ def menu_utama():
             elif pilihan == '2':
                 up_to_prem()
             elif pilihan == '3':
-                os.system("xdg-open 'https://saweria.co/Byexe'")
+                print(f"\n{h} ⌗ {p}Link Donate{m}: {h}https://saweria.co/Byexe")
+                input(f"  {h}[{m} ENTER {h}]")
+            elif pilihan == '3':
+                print(f"\n{h} ⌗ {p}Link Channel{m}: {h}https://whatsapp.com/channel/0029Vb8Czm0B4hdQ5pc3tv0m")
+                input(f"  {h}[{m} ENTER {h}]")
             elif pilihan == '0':
                 break
             else:
