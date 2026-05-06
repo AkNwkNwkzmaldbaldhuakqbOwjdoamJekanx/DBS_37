@@ -771,7 +771,8 @@ def main():
 
 if __name__ == "__main__":
     os.system("clear")
-    print("Script Sedang Dijalankan, Tunggu Sampai 10-30 Detik")
-    os.system("xdg-open 'https://youtube.com/@byexeofficial?si=LdkfUglyICkMa5Wu'")
+    print(f"{h}⌗ {p}Script Sedang Dijalanlan{m},{p} Tunggu 10{m}-{p}15 Detik")
+    os.system("clear")
+    print(f"{h}⌗ {p}Subscribe YouTube {m}: {p}@ByexeOfficial {h}| {p}Gak Subscribe Gak Work🤬")
     time.sleep(2)
     main()
